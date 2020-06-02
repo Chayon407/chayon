@@ -1,0 +1,194 @@
+.navbar {
+
+   .nav-item {
+      font-size: 20px;
+      font-family: 'Oxanium', ;
+      color: black;
+      text-transform: uppercase;
+
+
+   }
+}
+
+#page {
+   img {
+      &:hover {
+         box-shadow: 5px 5px 4px 8px rgb(230, 212, 212);
+         border: 0px;
+      }
+   }
+}
+
+#shop {
+   img {
+      &:hover {
+         box-shadow: 5px 5px 4px 8px rgb(230, 212, 212);
+         border: 0px;
+         transition: 0.2s;
+      }
+   }
+
+   h5 {
+      &:hover {
+         box-shadow: 3px 4px 16px #000;
+         border: 0px;
+         transition: 1s;
+      }
+   }
+}
+
+#watch {
+   .mydiv {
+      background: rgb(32, 162, 167);
+      width: 500px;
+      height: 120px;
+   }
+
+   .youdiv {
+      width: 500px;
+      height: 120px;
+      background: rgb(8, 231, 127);
+   }
+}
+
+#last {
+   img {
+      border-radius: 50%;
+   }
+
+   img {
+      &:hover {
+         box-shadow: 3px 4px 5px 5px rgb(201, 188, 188);
+         transition: 0.3s;
+      }
+   }
+}
+
+#footer {
+   .form-control {
+      background: saturation($color: #000000);
+   }
+
+   .fab {
+      font-size: 30px;
+   }
+
+   .text {
+      color: #FFF2C8;
+   }
+}
+
+#footer-2 {
+   background: rgb(0, 0, 0);
+}
+
+
+// page
+// page
+// page
+// page
+
+#page-home {
+   img {
+      border-radius: 50%;
+      margin-top: -50px;
+      box-shadow: -1px -1px 4px 5px rgb(219, 203, 203);
+   }
+
+   img {
+      &:hover {
+         border: 2px solid #333;
+      }
+   }
+
+   .card {
+      box-shadow: 4px 4px 4px 8px rgb(228, 208, 208);
+      border: 0;
+   }
+
+   .btn {
+      background: #000;
+
+   }
+
+   .btn {
+      &:hover {
+         background: #333;
+         ;
+         box-shadow: 3px 4px 4px 3px rgb(102, 100, 104);
+         ;
+         transition: 0.3s;
+      }
+   }
+
+   .card {
+      &:hover {
+         border: 1px solid rgb(26, 16, 16);
+         box-shadow: 1px 1px 1px 2px rgb(212, 165, 165);
+         transition: 0.2s;
+      }
+   }
+}
+
+#box {
+   .fas {
+      font-size: 30px;
+   }
+}
+
+#image {
+   img {
+      border-radius: 50%;
+
+   }
+}
+
+#footer {
+   .close {
+      &:hover {
+         transform: rotate(450deg);
+         transition: 1s;
+      }
+   }
+}
+
+
+#blog {
+   hr {
+      box-shadow: 2px 3px 5px #333;
+   }
+}
+
+#blog-home {
+   .card {
+      &:hover {
+         box-shadow: 3px 5px 4px 7px rgb(187, 156, 156);
+      }
+   }
+}
+
+#shadow {
+
+
+   h2 {
+      color: blue;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   }
+
+   img {
+      border-radius: 50%;
+      -moz-box-shadow: inset 0 0 10px yellow;
+      -webkit-box-shadow: inset 0 0 10px yellow;
+      box-shadow: inset 0 0 10px yellow;
+   }
+}
+
+.card {
+   -box-shadow: inset 0 0 10px #333;
+   box-shadow: inset 0 0 10px rgb(230, 27, 27);
+   box-shadow: inset 0 0 10px #333;
+}
+
+.btn {
+   background-image: linear-gradient(to top, #ff0000, #5d00f3);
+}
